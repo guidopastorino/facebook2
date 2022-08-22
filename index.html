@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico?_nc_eui2=AeFX_32vcE2In1ZrLCYnOfvqaBWfmC2eGbdoFZ-YLZ4Zt828w4PY6a_oULZ3MxzyB2Y7adPBLKmC1jhziHNwcawS">
+    <!-- iconos google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,200" />
+    <title>Facebook</title>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="navbar__left">
+                <a href="#">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                
+                <div class="navbar__search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Buscar en Facebook">
+                </div>
+            </div>
+
+
+            <div class="navbar__center">
+                <nav class="nav">
+                    <ul class="nav__ul">
+                        <li class="nav__li hide-nav-item-2 popover" data-popover="Inicio">
+                            <a href="#" class="nav__link hvr-nav nav__link-active">
+                                <i class="bi bi-house-door"></i>
+                                <i class="bi bi-house-door-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav__li hide-nav-item-2 popover" data-popover="Páginas">
+                            <a href="#" class="nav__link hvr-nav">
+                                <i class="bi bi-flag"></i>
+                                <i class="bi bi-flag-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav__li hide-nav-item-2 popover" data-popover="Watch">
+                            <a href="#" class="nav__link hvr-nav">
+                                <i class="bi bi-play-circle"></i>
+                                <i class="bi bi-play-circle-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav__li hide-nav-item-2 popover" data-popover="Marketplace">
+                            <a href="#" class="nav__link hvr-nav">
+                                <i class="bi bi-bag"></i>
+                                <i class="bi bi-bag-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav__li hide-nav-item-1 popover" data-popover="Grupos">
+                            <a href="#" class="nav__link hvr-nav">
+                                <i class="bi bi-people"></i>
+                                <i class="bi bi-people-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav__li responsive popover" data-popover="Más">
+                            <a href="#" class="nav__link hvr-nav">
+                                <i class="bi bi-list"></i>
+                                <i class="bi bi-list"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="navbar__right">
+                <!-- btn & dropdown -->
+                <div class="btn responsive">
+                    <button id="btnCreate" class="btn-normal popover" data-popover="Crear"><i class="bi bi-plus-lg"></i></button>
+
+                    <!-- dropdown -->
+                    <div class="create">
+                        <div class="create__header">
+                            <span>Crear</span>
+                        </div>
+
+                        <!-- items -->
+                        <div class="items-dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-pencil-square create-icon"></i>
+                                        <div>
+                                            <span class="post-options__title">Publicación</span>
+                                            <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-book-fill create-icon"></i>
+                                        <div>
+                                            <span class="post-options__title">Historia</span>
+                                            <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-camera-video-fill create-icon"></i>
+                                        <div>
+                                            <span class="post-options__title">Sala</span>
+                                            <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="splitter">
+                            <div></div>
+                        </div>
+
+                        <div class="items-dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-flag-fill create-icon"></i>
+                                        <div>
+                                            <span class="post-options__title">Página</span>
+                                            <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-megaphone-fill create-icon"></i>
+                                        <div>
+                                            <span class="post-options__title">Anuncio</span>
+                                            <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-people-fill create-icon"></i>
+                                        <div>
+                                            <span class="post-options__title">Grupo</span>
+                                            <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-calendar create-icon"></i>
+                                        <div>
+                                            <span class="post-options__title">Evento</span>
+                                            <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-cart-plus-fill create-icon"></i>
+                                        <div>
+                                            <span class="post-options__title">Publicación de Marketplace</span>
+                                            <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- btn & dropdown -->
+                <div class="btn hide-nav-item-1">
+                    <button id="btnMenu" class="btn-normal popover" data-popover="Menu"><i class="bi bi-grid-3x3-gap-fill"></i></button>
+
+                    <!-- dropdown -->
+                    <div class="menu">
+                        <div class="menu__header">
+                            <span>Menú</span>
+                        </div>
+
+                        <div class="menu__body">
+                            <div class="menu__content">
+                                <div class="menu__content-title">
+                                    <span>Social</span>
+                                </div>
+                                <!-- items -->
+                                <div class="items-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Eventos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-people-fill"></i>
+                                                <div>
+                                                    <span class="post-options__title">Amigos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-flag"></i>
+                                                <div>
+                                                    <span class="post-options__title">Páginas</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Eventos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="splitter">
+                                    <div></div>
+                                </div>
+
+                                <div class="menu__content-title">
+                                    <span>Entretenimiento</span>
+                                </div>
+                                <!-- items -->
+                                <div class="items-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Eventos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-people-fill"></i>
+                                                <div>
+                                                    <span class="post-options__title">Amigos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-flag"></i>
+                                                <div>
+                                                    <span class="post-options__title">Páginas</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Eventos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="splitter">
+                                    <div></div>
+                                </div>
+
+                                <div class="menu__content-title">
+                                    <span>Compras</span>
+                                </div>
+                                <!-- items -->
+                                <div class="items-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Eventos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-people-fill"></i>
+                                                <div>
+                                                    <span class="post-options__title">Amigos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="splitter">
+                                    <div></div>
+                                </div>
+
+                                <div class="menu__content-title">
+                                    <span>Personal</span>
+                                </div>
+                                <!-- items -->
+                                <div class="items-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Eventos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-people-fill"></i>
+                                                <div>
+                                                    <span class="post-options__title">Amigos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="splitter">
+                                    <div></div>
+                                </div>
+
+                                <div class="menu__content-title">
+                                    <span>Profesional</span>
+                                </div>
+                                <!-- items -->
+                                <div class="items-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Eventos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="splitter">
+                                    <div></div>
+                                </div>
+
+                                <div class="menu__content-title">
+                                    <span>Recursos de la Comunidad</span>
+                                </div>
+                                <!-- items -->
+                                <div class="items-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Eventos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Eventos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-suit-heart-fill"></i>
+                                                <div>
+                                                    <span class="post-options__title">Ayuda comunitaria</span>
+                                                    <span class="post-options__desc">Crea una colecta, solicita u ofrece ayuda o trabaja como voluntario para involucrarte en tu comunidad.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Eventos</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="splitter">
+                                    <div></div>
+                                </div>
+
+                                <div class="menu__content-title">
+                                    <span>Más de Meta</span>
+                                </div>
+                                <!-- items -->
+                                <div class="items-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Messenger</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar"></i>
+                                                <div>
+                                                    <span class="post-options__title">Messenger Kids</span>
+                                                    <span class="post-options__desc">Lorem ipsum dolor sit amet lorem ipsum.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- aside right dropdown -->
+                            <div class="menu__aside">
+                                <div class="menu__content-title">
+                                    <span>Crear</span>
+                                </div>
+                                
+                                <!-- create-items -->
+                                <div class="items-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-pencil-square create-icon"></i>
+                                                <div>
+                                                    <span class="post-options__title">Publicación</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-book-fill create-icon"></i>
+                                                <div>
+                                                    <span class="post-options__title">Historia</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-camera-video-fill create-icon"></i>
+                                                <div>
+                                                    <span class="post-options__title">Sala</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="splitter">
+                                    <div></div>
+                                </div>
+
+                                <div class="items-dropdown">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-flag-fill create-icon"></i>
+                                                <div>
+                                                    <span class="post-options__title">Página</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-megaphone-fill create-icon"></i>
+                                                <div>
+                                                    <span class="post-options__title">Anuncio</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-people-fill create-icon"></i>
+                                                <div>
+                                                    <span class="post-options__title">Grupo</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-calendar create-icon"></i>
+                                                <div>
+                                                    <span class="post-options__title">Evento</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="hvr-item">
+                                                <i class="bi bi-cart-plus-fill create-icon"></i>
+                                                <div>
+                                                    <span class="post-options__title">Publicación de Marketplace</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- btn & dropdown -->
+                <div class="btn">
+                    <button class="btn-normal popover" data-popover="Messenger"><i class="bi bi-messenger"></i></button>
+
+                    <!-- dropdown -->
+                    <!-- <div class="dropdown messenger">
+
+                    </div> -->
+                </div>
+
+                <!-- btn & dropdown -->
+                <div class="btn">
+                    <button class="btn-normal popover" data-popover="Notificaciones"><i class="bi bi-bell-fill"></i></button>
+
+                    <!-- dropdown -->
+                    <!-- <div class="dropdown">
+
+                    </div> -->
+                </div>
+
+                <!-- btn & dropdown -->
+                <div class="btn">
+                    <button id="btnProfile" class="btn-normal popover" data-popover="Cuenta"><img src="https://placeimg.com/300/300/nature" alt="profile img"></button>
+
+                    <!-- dropdown -->
+                    <div class="profile">
+                        <!-- profile -->
+                        <div class="profile__profile-box">
+                            <a href="#" class="hvr-item">
+                                <img src="https://placeimg.com/300/300/nature" alt="profile img">
+                                <span>Username</span>
+                            </a>
+                            <div class="splitter splitter--profile">
+                                <div></div>
+                            </div>
+                            <div class="profile-box__see-profiles hvr-item">
+                                <span>Ver todos los perfiles</span>
+                            </div>
+                        </div>
+                        <!-- theme -->
+                        <div class="profile__theme">
+                            <span>Tema de color</span>
+                            <div>
+                                <label for="pointer-light" class="hvr-item" id="light">
+                                    <input id="pointer-light" type="radio" name="theme" checked>
+                                    <span>Light</span>
+                                </label>
+                                
+                                <label for="pointer-dark" class="hvr-item" id="dark">
+                                    <input id="pointer-dark" type="radio" name="theme">
+                                    <span>Dark</span>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- log out -->
+                        <div class="items-dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-box-arrow-right create-icon"></i>
+                                        <div>
+                                            <span class="post-options__title">Cerrar sesión</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- sidebar left -->
+        <aside id="asideLeft">
+            <div class="sidebar__content">
+                <div>
+                    <ul>
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <img src="https://placeimg.com/300/300/nature" alt="profile img">
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Username</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <i class="bi bi-people-fill"></i>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Amigos</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <span class="material-symbols-outlined">
+                                            diversity_3
+                                        </span>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Grupos</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <span class="material-symbols-outlined">
+                                            storefront
+                                        </span>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Marketplace</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <span class="material-symbols-outlined">
+                                            play_circle
+                                        </span>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Watch</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <span class="material-symbols-outlined">
+                                            device_reset
+                                        </span>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Recuerdos</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- SEE MORE -->
+                        <!-- see more items -->
+                        <li class="aside__item d-none" id="itemHidden1">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <span class="material-symbols-outlined">
+                                            line_axis
+                                        </span>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Actividad publicitaria reciente</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item d-none" id="itemHidden1">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <span class="material-symbols-outlined">
+                                            leaderboard
+                                        </span>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Administrador de Anuncios</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item d-none" id="itemHidden1">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <span class="material-symbols-outlined">
+                                            volunteer_activism
+                                        </span>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Ayuda comunitaria</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item d-none" id="itemHidden1">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <span class="material-symbols-outlined">
+                                            credit_card
+                                        </span>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Facebook pay</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- btn see more -->
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item" id="seeMoreBtn1">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <span id="iconRotate1" class="material-symbols-outlined">
+                                            expand_circle_down
+                                        </span>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span id="textBtnSeeMore1">Ver más</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <!-- splitter -->
+                    <div class="splitter">
+                        <div></div>
+                        <span>Tus accesos directos</span>
+                    </div>
+    
+                    <ul>
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon item__icon--games">
+                                        <img src="https://www.clarin.com/img/2015/07/27/S17s0ZkEe_340x340.jpg" alt="profile img">
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Preguntados</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon item__icon--games">
+                                        <img src="https://play-lh.googleusercontent.com/bPz1guJ6FHF3oIOEy3KqwpaDDKO-hLRaZoyzmM8bLFLN8fWm6L0_EuUnkwv9iqPo3Ag" alt="profile img">
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>8 Ball Pool</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon item__icon--games">
+                                        <img src="https://s3.minijuegosgratis.com/media/video-collection-img/video-collection-agario-thumb.jpg?v=_1639555150" alt="profile img">
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Agar.io</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- SEE MORE -->
+                        <!-- see more items -->
+                        <li class="aside__item d-none" id="itemHidden2">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon item__icon--games">
+                                        <img src="https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP" alt="profile img">
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Minecraft</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="aside__item d-none" id="itemHidden2">
+                            <a href="#" class="hvr-item">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon item__icon--games">
+                                        <img src="https://play-lh.googleusercontent.com/NoSU7StAuWEVXywXPxXY3fb7VJWHfBBqPmXD-aispUVTSEQHTYGAO8xW99qmN41weyA" alt="profile img">
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span>Dragon City</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- btn see more -->
+                        <li class="aside__item">
+                            <a href="#" class="hvr-item" id="seeMoreBtn2">
+                                <div class="item__content">
+                                    <!-- icon -->
+                                    <div class="item__icon">
+                                        <span id="iconRotate2" class="material-symbols-outlined">
+                                            expand_circle_down
+                                        </span>
+                                    </div>
+                                    <!-- title -->
+                                    <div class="item__desc">
+                                        <span id="textBtnSeeMore2">Ver más</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <footer>
+                    <a href="#">Privacidad</a> &#8729;
+                    <a href="#">Condiciones</a> &#8729;
+                    <a href="#">Publicidad</a> &#8729;
+                    <a href="#">Opciones de anuncios</a> &#8729;
+                    <a href="#">Cookies</a> &#8729;
+                    <!-- options -->
+                    <div>
+                        <span id="dropMenuAsideLeft">Más</span>
+    
+                        <div class="d-none">
+                            <ul>
+                                <li class="aside__item">
+                                    <a href="#" class="hvr-item">
+                                        <div class="item__content">
+                                            <!-- title -->
+                                            <div class="item__desc">
+                                                <span>Información</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="aside__item">
+                                    <a href="#" class="hvr-item">
+                                        <div class="item__content">
+                                            <!-- title -->
+                                            <div class="item__desc">
+                                                <span>Empleo</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="aside__item">
+                                    <a href="#" class="hvr-item">
+                                        <div class="item__content">
+                                            <!-- title -->
+                                            <div class="item__desc">
+                                                <span>Desarrolladores</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="aside__item">
+                                    <a href="#" class="hvr-item">
+                                        <div class="item__content">
+                                            <!-- title -->
+                                            <div class="item__desc">
+                                                <span>Ayuda</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </aside>
+
+
+
+        <!-- content -->
+        <div class="content">
+
+            <!-- STORIES -->
+            <div class="stories">
+                <!-- create story -->
+                <div class="storie storie__profile hvr-img">
+                    <div class="storie__profile-img">
+                        <img src="https://placeimg.com/300/300/nature" alt="profile img">
+                    </div>
+                    <div class="storie__profile-footer">
+                        <div><i class="bi bi-plus"></i></div>
+                        <span>Crear historia</span>
+                    </div>
+                </div>
+
+                <!-- users stories -->
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/2" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/6" alt="profile img">
+
+                        <span>Amina Yañez</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/3" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/7" alt="profile img">
+
+                        <span>Julia Martos</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img hide-storie">
+                    <img src="https://source.unsplash.com/collection/random/4" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/8" alt="profile img">
+
+                        <span>Aranzazu Acedo</span>
+                    </div>
+                </div>
+
+                <!-- btn storie -->
+                <button class="btn-option hvr-nav btn-storie popover popover--btn" data-popover="Más"><i class="bi bi-arrow-right-short"></i></button>
+            </div>
+
+            <div class="stories-mobile">
+                <!-- create story -->
+                <div class="storie storie__profile hvr-img">
+                    <div class="storie__profile-img">
+                        <img src="assets/fb-profile-img.jpg" alt="profile img">
+                    </div>
+                    <div class="storie__profile-footer">
+                        <div><i class="bi bi-plus"></i></div>
+                        <span>Crear historia</span>
+                    </div>
+                </div>
+
+                <!-- users stories -->
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+
+                <div class="storie storie__users hvr-img">
+                    <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                    <div>
+                        <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+
+                        <span>Adelaida Rios</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POSTS -->
+            <div class="create-post post">
+                <div class="create-post__header">
+                    <div class="hvr-img">
+                        <img src="https://placeimg.com/300/300/nature" alt="profile img">
+                    </div>
+                    <button id="createPostBtn" class="hvr-nav">¿Qué estás pensando, Username?</button>
+                </div>
+
+                <div class="splitter">
+                    <div></div>
+                </div>
+
+                <div class="create-post__footer">
+                    <button class="hvr-nav"><i class="bi bi-camera-video-fill red"></i><span>Video en vivo</span></button>
+                    <button class="hvr-nav"><i class="bi bi-images green"></i><span>Foto/video</span></button>
+                    <button class="hvr-nav"><i class="bi bi-emoji-laughing-fill yellow"></i><span>Sentimiento/actividad</span></button>
+                </div>
+            </div>
+
+            <div class="user-post post">
+                <div class="user-post__header">
+                    <div class="user-post__user-info">
+                        <div class="user-info__profile-img hvr-img">
+                            <img src="https://placeimg.com/300/300/tech" alt="profile img">
+                        </div>
+                        <div class="user-info__info">
+                            <div class="user-info__username">
+                                <span>Oscar Isvaldo</span>
+                            </div>
+                            <div class="user-info__date">
+                                <span>April 26 at 12:17hs</span>
+                                &#8226;
+                                <span class=" popover" data-popover="Público"><i class="bi bi-globe"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-post__btn-options">
+                        <!-- close bg -->
+                        <div id="closeOptionsPost" class="d-none"></div>
+
+                        <button id="btnOptionsPost" class="btn-option hvr-nav btn-option-post"><i class="bi bi-three-dots"></i></button>
+
+                        <!-- options post -->
+                        <div class="d-none">
+                            <ul>
+                                <li class="hvr-item">
+                                    <i class="bi bi-bookmark-plus"></i>
+                                    <div>
+                                        <span class="post-options__title">Guardar publicación</span>
+                                        <span class="post-options__desc">Agregar a tus elementos guardados.</span>
+                                    </div>
+                                </li>
+                                <li class="hvr-item">
+                                    <i class="bi bi-bell"></i>
+                                    <div>
+                                        <span class="post-options__title">Activar notificaciones de esta publicación</span>
+                                    </div>
+                                </li>
+                                <li class="hvr-item" id="hidePost">
+                                    <i class="bi bi-x-square"></i>
+                                    <div>
+                                        <span class="post-options__title">Ocultar publicación</span>
+                                        <span class="post-options__desc">Ver menos publicaciones como esta.</span>
+                                    </div>
+                                </li>
+                                <li class="hvr-item">
+                                    <i class="bi bi-person-dash"></i>
+                                    <div>
+                                        <span class="post-options__title">Dejar de seguir</span>
+                                        <span class="post-options__desc">Dejar de ver sus publicaciones pero seguir siendo amigos.</span>
+                                    </div>
+                                </li>
+                                <li class="hvr-item">
+                                    <i class="bi bi-exclamation-circle"></i>
+                                    <div>
+                                        <span class="post-options__title">Reportar publicación</span>
+                                        <span class="post-options__desc">Me preocupa esta publicación.</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="user-post__main">
+                    <div class="user-post__main-desc">
+                        <span id="postDesc" class="post-hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quae perferendis, illum libero sunt quis doloribus minima quod hic magnam non sapiente maxime at! Autem inventore nam id vel odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, tempore. Incidunt pariatur fugit dicta doloribus architecto, unde doloremque illo ipsum laborum labore deleniti possimus eos inventore qui sunt non repellendus!</span>
+                    </div>
+                    <div class="user-post__main-img">
+                        <img id="imgPost" src="https://placeimg.com/500/500/architecture" alt="post img" title="Haz click para ver la foto">
+                    </div>
+                </div>
+
+
+                <div class="splitter splitter--post">
+                    <div></div>
+                </div>
+
+
+                <div class="user-post__footer">
+                    <div class="user-post__footer-btns">
+                        <button id="btnLike" class="hvr-nav btns-post-footer no-like">
+                            <i class="bi bi-hand-thumbs-up btn-icon-normal"></i>
+                            <i class="bi bi-hand-thumbs-up-fill btn-icon-active"></i>
+                            <span>Me gusta</span>
+                        </button>
+                    </div>
+
+                    <div class="user-post__footer-btns">
+                        <button class="hvr-nav btns-post-footer">
+                            <i class="bi bi-chat"></i>
+                            <span>Comentar</span>
+                        </button>
+                    </div>
+
+                    <div class="user-post__footer-btns">
+                        <button id="shareOptionsPost" class="hvr-nav btns-post-footer">
+                            <i class="bi bi-share"></i>
+                            <span>Compartir</span>
+                        </button>
+    
+                        <!-- btn share options -->
+                        <div class="d-none">
+                            <ul>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-share"></i>
+                                        <span>Compartir ahora (Amigos)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-plus-circle"></i>
+                                        <span>Compartir en tu historia (Amigos)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-messenger"></i>
+                                        <span>Enviar por Messenger</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-code-slash"></i>
+                                        <span>Insertar</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="user-post post">
+                <div class="user-post__header">
+                    <div class="user-post__user-info">
+                        <div class="user-info__profile-img hvr-img">
+                            <img src="https://placeimg.com/300/300/tech" alt="profile img">
+                        </div>
+                        <div class="user-info__info">
+                            <div class="user-info__username">
+                                <span>Andrea Fontana</span>
+                            </div>
+                            <div class="user-info__date">
+                                <span>May 3 at 16:00hs</span>
+                                &#8226;
+                                <span class=" popover" data-popover="Público"><i class="bi bi-globe"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-post__btn-options">
+                        <!-- close bg -->
+                        <div id="closeOptionsPost" class="d-none"></div>
+
+                        <button id="btnOptionsPost" class="btn-option hvr-nav btn-option-post"><i class="bi bi-three-dots"></i></button>
+
+                        <!-- options post -->
+                        <div class="d-none">
+                            <ul>
+                                <li class="hvr-item">
+                                    <i class="bi bi-bookmark-plus"></i>
+                                    <div>
+                                        <span class="post-options__title">Guardar publicación</span>
+                                        <span class="post-options__desc">Agregar a tus elementos guardados.</span>
+                                    </div>
+                                </li>
+                                <li class="hvr-item">
+                                    <i class="bi bi-bell"></i>
+                                    <div>
+                                        <span class="post-options__title">Activar notificaciones de esta publicación</span>
+                                    </div>
+                                </li>
+                                <li class="hvr-item" id="hidePost">
+                                    <i class="bi bi-x-square"></i>
+                                    <div>
+                                        <span class="post-options__title">Ocultar publicación</span>
+                                        <span class="post-options__desc">Ver menos publicaciones como esta.</span>
+                                    </div>
+                                </li>
+                                <li class="hvr-item">
+                                    <i class="bi bi-person-dash"></i>
+                                    <div>
+                                        <span class="post-options__title">Dejar de seguir</span>
+                                        <span class="post-options__desc">Dejar de ver sus publicaciones pero seguir siendo amigos.</span>
+                                    </div>
+                                </li>
+                                <li class="hvr-item">
+                                    <i class="bi bi-exclamation-circle"></i>
+                                    <div>
+                                        <span class="post-options__title">Reportar publicación</span>
+                                        <span class="post-options__desc">Me preocupa esta publicación.</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="user-post__main">
+                    <div class="user-post__main-desc">
+                        <span id="postDesc" class="post-hide">I love this pic!</span>
+                    </div>
+                    <div class="user-post__main-img">
+                        <img id="imgPost" src="https://placeimg.com/500/500/any" alt="post img" title="Haz click para ver la foto">
+                    </div>
+                </div>
+
+
+                <div class="splitter splitter--post">
+                    <div></div>
+                </div>
+
+
+                <div class="user-post__footer">
+                    <div class="user-post__footer-btns">
+                        <button id="btnLike" class="hvr-nav btns-post-footer no-like">
+                            <i class="bi bi-hand-thumbs-up btn-icon-normal"></i>
+                            <i class="bi bi-hand-thumbs-up-fill btn-icon-active"></i>
+                            <span>Me gusta</span>
+                        </button>
+                    </div>
+
+                    <div class="user-post__footer-btns">
+                        <button class="hvr-nav btns-post-footer">
+                            <i class="bi bi-chat"></i>
+                            <span>Comentar</span>
+                        </button>
+                    </div>
+
+                    <div class="user-post__footer-btns">
+                        <button id="shareOptionsPost" class="hvr-nav btns-post-footer">
+                            <i class="bi bi-share"></i>
+                            <span>Compartir</span>
+                        </button>
+    
+                        <!-- btn share options -->
+                        <div class="d-none">
+                            <ul>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-share"></i>
+                                        <span>Compartir ahora (Amigos)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-plus-circle"></i>
+                                        <span>Compartir en tu historia (Amigos)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-messenger"></i>
+                                        <span>Enviar por Messenger</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hvr-item">
+                                        <i class="bi bi-code-slash"></i>
+                                        <span>Insertar</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- sidebar right -->
+        <aside id="asideRight">
+            <div class="splitter">
+                <span>Publicidad</span>
+            </div>
+
+            <div class="ad">
+                <a href="#" target="_blank" class="ad-content hvr-item">
+                    <div class="ad-content__img">
+                        <img src="https://placeimg.com/500/500/any" alt="ad img">
+                    </div>
+                    <div class="ad-content__info">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cumque nam quo quidem recusandae possimus labore repellendus fugit molestias delectus alias et tenetur molestiae libero, temporibus assumenda? Repellendus, cumque facilis?</span>
+                        <span>www.thewebsite.com</span>
+                    </div>
+                </a>
+                <button id="btnAd" class="btn-option btn-option--ad hvr-nav"><i class="bi bi-three-dots"></i></button>
+                
+                <!-- ad options -->
+                <div class="d-none">
+                    <ul>
+                        <li class="hvr-item" id="hideAd">
+                            <i class="bi bi-x-square"></i>
+                            <div>
+                                <span class="ad-options__title">Ocultar este anuncio</span>
+                                <span class="ad-options__desc">No volver a ver este anuncio.</span>
+                            </div>
+                        </li>
+                        <li class="hvr-item">
+                            <i class="bi bi-exclamation-circle"></i>
+                            <div>
+                                <span class="ad-options__title">Reportar anuncio</span>
+                                <span class="ad-options__desc">Dinos que problema hay con este anuncio.</span>
+                            </div>
+                        </li>
+                        <li class="hvr-item">
+                            <i class="bi bi-question-circle"></i>
+                            <div>
+                                <span class="ad-options__title">¿Por qué veo este anuncio?</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="ad">
+                <a href="#" target="_blank" class="ad-content hvr-item">
+                    <div class="ad-content__img">
+                        <img src="https://placeimg.com/500/500/any" alt="ad img">
+                    </div>
+                    <div class="ad-content__info">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cumque nam quo quidem recusandae possimus labore repellendus fugit molestias delectus alias et tenetur molestiae libero, temporibus assumenda? Repellendus, cumque facilis?</span>
+                        <span>www.thewebsite.com</span>
+                    </div>
+                </a>
+                <button id="btnAd" class="btn-option btn-option--ad hvr-nav"><i class="bi bi-three-dots"></i></button>
+                
+                <!-- ad options -->
+                <div class="d-none">
+                    <ul>
+                        <li class="hvr-item" id="hideAd">
+                            <i class="bi bi-x-square"></i>
+                            <div>
+                                <span class="ad-options__title">Ocultar este anuncio</span>
+                                <span class="ad-options__desc">No volver a ver este anuncio.</span>
+                            </div>
+                        </li>
+                        <li class="hvr-item">
+                            <i class="bi bi-exclamation-circle"></i>
+                            <div>
+                                <span class="ad-options__title">Reportar anuncio</span>
+                                <span class="ad-options__desc">Dinos que problema hay con este anuncio.</span>
+                            </div>
+                        </li>
+                        <li class="hvr-item">
+                            <i class="bi bi-question-circle"></i>
+                            <div>
+                                <span class="ad-options__title">¿Por qué veo este anuncio?</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- contacts -->
+            <div class="splitter splitter--contacts">
+                <div></div>
+
+                <div class="splitter__contact">
+                    <span>Contactos</span>
+            
+                    <div class="splitter__btns">
+                        <button class="hvr-item"><i class="bi bi-camera-video-fill"></i></button>
+                        <button class="hvr-item"><i class="bi bi-search"></i></button>
+                        <button class="hvr-item"><i class="bi bi-three-dots"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <ul>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/1" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Leanne Graham</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/2" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Ervin Howell</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/3" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Clementine Bauch</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/4" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Patricia Lebsack</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/5" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Chelsey Dietrich</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/6" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Mrs. Dennis Schulist</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/7" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Kurtis Weissnat</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/8" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Nicholas Runolfsdottir V</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/9" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Glenna Reichert</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/10" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Maxime Nienow</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/11" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Clementina DuBuque</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- groups -->
+            <div class="splitter">
+                <div></div>
+                <span>Conversaciones en grupo</span>
+            </div>
+
+            <ul>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/12" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Grupo 1</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/12" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Grupo 2</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="aside__item">
+                    <a href="#" class="hvr-item">
+                        <div class="item__content">
+                            <!-- icon -->
+                            <div id="contactOnline" class="item__icon item__icon--online">
+                                <img src="https://source.unsplash.com/collection/random/13" alt="profile img">
+                            </div>
+                            <!-- title -->
+                            <div class="item__desc">
+                                <span>Grupo 3</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </main>
+
+
+    <!-- screens out of content -->
+    <div id="previewImgPost" class="d-none">
+        <button id="btnClosePreview" class="btn-option btn-option--preview hvr-nav"><i class="bi bi-x"></i></button>
+
+        <img id="imgPreview" src="" alt="post img preview">
+    </div>
+
+    <div id="modalCreatePost" class="d-none">
+        <div class="post-data">
+            <div class="post-data__header">
+                <span>Crear publicación</span>
+                <button id="btnCloseCreateModal" class="btn-option btn-option--close-modal-create hvr-nav"><i class="bi bi-x"></i></button>
+            </div>
+
+
+            <div class="post-data__body">
+                <div class="post-data__profile hvr-item">
+                    <img src="https://placeimg.com/300/300/nature" alt="profile img">
+                    <span>Username</span>
+                </div>
+
+                <textarea id="textNewPost" placeholder="¿Qué estás pensando, Username?"></textarea>
+
+                <div class="emoji">
+                    <button id="modalEmojis" class="hvr-item btn-option btn-option--emoji"><i class="bi bi-emoji-laughing"></i></button>
+                    
+                    <div id="emojis" class="d-none">
+                        <div class="emojis__header">
+                            <span>Emojis</span>
+                        </div>
+
+                        <div class="emojis__body">
+                            <button id="btnEmoji" class="hvr-item">😀</button>
+                            <button id="btnEmoji" class="hvr-item">😃</button>
+                            <button id="btnEmoji" class="hvr-item">😄</button>
+                            <button id="btnEmoji" class="hvr-item">😁</button>
+                            <button id="btnEmoji" class="hvr-item">😆</button>
+                            <button id="btnEmoji" class="hvr-item">😅</button>
+                            <button id="btnEmoji" class="hvr-item">🤣</button>
+                            <button id="btnEmoji" class="hvr-item">😂</button>
+                            <button id="btnEmoji" class="hvr-item">🙂</button>
+                            <button id="btnEmoji" class="hvr-item">🙃</button>
+                            <button id="btnEmoji" class="hvr-item">😉</button>
+                            <button id="btnEmoji" class="hvr-item">😊</button>
+                            <button id="btnEmoji" class="hvr-item">😇</button>
+                            <button id="btnEmoji" class="hvr-item">🥰</button>
+                            <button id="btnEmoji" class="hvr-item">😍</button>
+                            <button id="btnEmoji" class="hvr-item">🤩</button>
+                            <button id="btnEmoji" class="hvr-item">😘</button>
+                            <button id="btnEmoji" class="hvr-item">😗</button>
+                            <button id="btnEmoji" class="hvr-item">😚</button>
+                            <button id="btnEmoji" class="hvr-item">😙</button>
+                            <button id="btnEmoji" class="hvr-item">😋</button>
+                            <button id="btnEmoji" class="hvr-item">😛</button>
+                            <button id="btnEmoji" class="hvr-item">😜</button>
+                            <button id="btnEmoji" class="hvr-item">🤪</button>
+                            <button id="btnEmoji" class="hvr-item">😝</button>
+                            <button id="btnEmoji" class="hvr-item">🤑</button>
+                            <button id="btnEmoji" class="hvr-item">🤗</button>
+                            <button id="btnEmoji" class="hvr-item">🤭</button>
+                        </div>
+                    </div>
+                </div>
+
+                <input id="imgNewPost" type="text" placeholder="URL image (optional)">
+            </div>
+
+
+            <div class="post-data__footer">
+                <button id="publishPost" class="btn-publish-disabled">Post</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
